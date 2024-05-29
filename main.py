@@ -4,14 +4,14 @@ app = Flask(__name__)
 
 
 @app.route("/")
-@app.route("/index")
+@app.route("/home")
 def home():
-    return render_template("index.html")
+    return render_template("home.html")
 
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
+@app.route("/roll")
+def roll():
+    return render_template("roll.html")
 
 
 if __name__ == "__main__":
