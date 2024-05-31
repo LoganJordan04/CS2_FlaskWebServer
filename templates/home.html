@@ -2,11 +2,24 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Home</title>
+        <title>Home Page</title>
         <link rel="stylesheet" href="/static/home.css" />
     </head>
     <body>
-        <h1>Home Page</h1>
-        <button onclick=location.href="/roll">Go to Roll Page</button>
+        <div>
+            <div class="wrapper">
+                <div class="text">Welcome Home</div>
+                <p>
+                    Click one of the buttons below to see a cool text effect using <br />
+                    HTML, CSS, and JavaScript. The words used are randomly <br />
+                    pulled from an SQLite3 database.
+                </p>
+                <div>
+                    <button class="particles-btn" href="#">PARTICLES</button>
+                    <button class="drawing-btn" href="#">DRAWING</button>
+                    <button class="spinning-btn" href="#">3D SPINNING</button>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
