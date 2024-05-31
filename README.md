@@ -1,8 +1,8 @@
 # Todo:
-- [Smash text effect](https://codepen.io/KilledByAPixel/pen/QWjKQoP)
-- Home page effect
-- Better buttons
-- Effect attribution text [(roll link)](https://codepen.io/gabrielcojea/pen/GRpZbZL)
+- [Particle text effect](https://www.youtube.com/watch?v=XGioNBHrFU4)
+- [Drawing text effect](https://codepen.io/tholman/pen/DByKvO)
+- [3D text effect](https://www.youtube.com/watch?v=TQyOL1u10EI)
+- Effect attribution text
 - SQL database of words
 - Implement database with random word choices
 
