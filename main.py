@@ -24,5 +24,6 @@ def spinning():
     return render_template("spinning.html")
 
 
+# Starts the web server. No need for terminal commands!
 if __name__ == "__main__":
     app.run()
