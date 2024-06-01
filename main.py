@@ -14,6 +14,11 @@ def particles():
     return render_template("particles.html")
 
 
+@app.route("/drawing")
+def drawing():
+    return render_template("drawing.html")
+
+
 @app.route("/spinning")
 def spinning():
     return render_template("spinning.html")
