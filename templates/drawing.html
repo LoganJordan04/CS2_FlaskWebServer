@@ -3,9 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <title>Drawing With Text Effect</title>
+        <link rel="stylesheet" href="/static/home.css"/>
+        <link rel="stylesheet" href="/static/spinning.css"/>
+        <link rel="stylesheet" href="/static/drawing.css"/>
     </head>
     <body>
         <canvas id='canvas'></canvas>
-        <span id='info'>Click and drag to draw!</span>
+        <span id='info'>
+            Click and drag to draw!<br />Hit backspace to clear.
+        </span>
+        <div class="btns">
+            <button class="home-btn" type="button" onclick=location.href="/index">
+                <ion-icon name="home"></ion-icon>
+            </button>
+            <button class="particles-btn" onclick=location.href="/particles">PARTICLES</button>
+            <button class="spinning-btn" onclick=location.href="/spinning">3D SPINNING</button>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="/static/drawing.js"></script>
     </body>
 </html>

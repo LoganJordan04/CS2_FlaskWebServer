@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+canvas {
+    cursor: crosshair;
+}
+span {
+    font-size: 40px;
+    position: fixed;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: -80px;
+    cursor: crosshair;
+}
+.home-btn:hover{
+    background: linear-gradient(90deg, #11998E, #38EF7D, #11998E);
+    background-size: 400%
+}
