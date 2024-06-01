@@ -4,14 +4,19 @@ app = Flask(__name__)
 
 
 @app.route("/")
-@app.route("/home")
+@app.route("/index")
 def home():
-    return render_template("home.html")
+    return render_template("index.html")
 
 
-@app.route("/roll")
-def roll():
-    return render_template("roll.html")
+@app.route("/particles")
+def particles():
+    return render_template("particles.html")
+
+
+@app.route("/spinning")
+def spinning():
+    return render_template("spinning.html")
 
 
 if __name__ == "__main__":
