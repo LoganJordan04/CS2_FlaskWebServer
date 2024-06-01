@@ -1,5 +1,4 @@
 # Todo:
-- Link pages to server
 - [Particle text effect](https://www.youtube.com/watch?v=XGioNBHrFU4)
 - [Drawing text effect](https://codepen.io/tholman/pen/DByKvO)
 - [3D text effect](https://www.youtube.com/watch?v=TQyOL1u10EI) **DONE**
