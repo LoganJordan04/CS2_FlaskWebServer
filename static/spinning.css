@@ -1,22 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #111;
-    overflow: hidden;
-}
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    top: -50px;
 }
 .container .box{
     transform-style: preserve-3d;
@@ -42,4 +26,37 @@ body{
     transform-style: preserve-3d;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(183px);
+}
+.btns{
+    position: fixed;
+    bottom: 10px;
+    padding: 0 20px;
+    background: #222;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #111;
+}
+button{
+    position: relative;
+    height: 45px;
+    width: 145px;
+    margin: 20px 5px 20px;
+    border-radius: 50px;
+    border: none;
+    background: #111;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+}
+.home-btn{
+    width: 45px;
+    height: 45px;
+}
+.home-btn:hover{
+    background: linear-gradient(90deg, #0162c8, #55e7fc, #0162c8);
+    background-size: 400%
+}
+button:before, button:before{
+    filter: blur(6px);
 }
