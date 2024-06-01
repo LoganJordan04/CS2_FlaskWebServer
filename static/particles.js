@@ -24,7 +24,7 @@ window.addEventListener("mousemove", function(event){
 })
 
 ctx.fillStyle = "white";
-ctx.font = "30px Poppins"
+ctx.font = "30px Verdana"
 ctx.fillText("WHAT", 0, 40);
 let textCoordinates = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
